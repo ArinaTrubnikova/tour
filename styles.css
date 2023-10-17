@@ -1,0 +1,157 @@
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+
+}
+
+body {
+    display: block;
+    justify-content: center;
+    font-family: 'Helvetica';
+    src: url('helveticaneuecyr.ttf');
+    background-image: url('fon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 923px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+header div {
+    width: 500px;
+    height: 70px;
+    border: 1px solid #fff;
+    backdrop-filter: blur(2px);
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.menu {
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px 15px;
+    font-size: 22px;
+
+}
+
+.link_menu {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+.link_menu:hover {
+    box-shadow: 4px 4px 6px;
+}
+
+.title {
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.main_title {
+    backdrop-filter: blur(2px);
+
+    width: 800px;
+    height: 600px;
+    display: block;
+    justify-content: center;
+
+}
+
+.hr_1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    width: 800px;
+    height: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+}
+
+.hr_2 {
+    position: absolute;
+    margin-top: 70px;
+    width: 800px;
+    height: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 600px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+
+.h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 100px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 350px;
+    font-size: 50px;
+    color: aliceblue;
+    width: 500px;
+}
+
+.main_footer {
+    text-align: end;
+
+    margin: 0;
+    padding: 0px;
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+.link_contacts a {
+    color: rgb(80, 39, 10);
+    font-size: 20px;
+    font-weight: 100px;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.link_contacts a:hover {
+    box-shadow: 4px 4px 6px;
+}
+
+.rights {
+    color: rgb(80, 39, 10);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
